@@ -24,10 +24,35 @@ int main() {
     return 0;
 }
 
-void zahlenAusgabeAddition(){
-    // Hier muss der Code für die Zahlen-Ausgabe mit Addition geschrieben werden.
+void zahlenAusgabeAddition() {
+    int zaehler;
+    int resultat = 0;
+    int zahl;
+
+    printf("Bitte geben Sie eine Zahl ein : ");
+    scanf_s("%d", &zahl);
+
+    for (zaehler = 0; zaehler <= zahl; zaehler++) {
+        printf("%d \n", zaehler);
+        resultat = resultat + zaehler;
+    }
+
+    printf("\nDas Resultat ist: %d \n", resultat);
+
 }
 
-void zahlenAusgabe(){
-    // Hier muss der Code für die Zahlen-Ausgabe geschrieben werden.
+void zahlenAusgabe() {
+    int zaehler;
+    int zahl = 0;
+
+    printf("Bitte geben Sie eine Zahl ein : ");
+    scanf_s("%d", &zaehler);
+
+    while (zaehler >= zahl) {
+        printf("%d \n", zaehler);
+        zaehler--;
+    }
+
+    printf("\nAlle Zahlen wurden ausgegeben. \n");
+
 }
