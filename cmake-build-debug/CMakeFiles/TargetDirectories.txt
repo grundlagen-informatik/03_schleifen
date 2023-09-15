@@ -1,0 +1,3 @@
+C:/Users/igeis/Desktop/git/aufgaben-grundlagen-informatik/03_schleifen/cmake-build-debug/CMakeFiles/03_schleifen.dir
+C:/Users/igeis/Desktop/git/aufgaben-grundlagen-informatik/03_schleifen/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/igeis/Desktop/git/aufgaben-grundlagen-informatik/03_schleifen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
