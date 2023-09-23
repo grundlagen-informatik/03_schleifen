@@ -26,6 +26,16 @@ int main() {
 
 void zahlenAusgabeAddition(){
     // Hier muss der Code für die Zahlen-Ausgabe mit Addition geschrieben werden.
+    int eingabe; int zaehler = 0;
+    printf("Bitte wähle eine ganzzahlige positive Zahl: \n");
+    scanf("%d", &eingabe);
+    printf("Hier sind alle ganzzahligen Zahlen von 0 bis %d: \n", eingabe);
+    for(int i = 0; i<=eingabe; i++){
+        printf("%d ", i);
+        zaehler=zaehler+i;
+    }
+    printf("\nHier ist die Summe der ganzzahligen Zahlen von 0 bis %d: \n", eingabe);
+    printf("%d",zaehler);
 }
 
 void zahlenAusgabe(){
